@@ -1,0 +1,33 @@
+name: QuickBans
+author: Hawkeyezd
+description: Easily ban users with a predefined reason.
+main: com.msbans.quick.Quick
+version: 1.1
+commands:
+  quickbans:
+    usage: /<command>
+    description: Displays QuickBans help.
+    aliases: [qbans]
+  ub:
+    usage: /<command>
+    description: Unban a user.
+  griefing:
+    usage: /<command>
+    description: Ban a user for griefing.
+    aliases: [gr]
+  stealing:
+    usage: /<command>
+    description: Ban a user for stealing.
+    aliases: [st]
+  homophobia:
+    usage: /<command>
+    description: Ban a user for homophobia.
+    aliases: [hm]
+  racism:
+    usage: /<command>
+    description: Ban a user for racism.
+    aliases: [rc]
+  permaban:
+    usage: /<command>
+    description: Permaban a user.
+    aliases: [pb]

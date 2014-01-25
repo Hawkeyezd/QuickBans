@@ -1,0 +1,29 @@
+ban:
+  default-command: "ban"
+  mcbans-global-ban-command: "gban"
+  msbans-global-ban-command: "gban"
+  mcbans-local-ban-command: "gban"
+  msbans-local-ban-command: "gban"
+  mcbouncer-ban-command: "ban"
+  mcbouncer-note-command: "addnote"
+  unban-command: "unban"
+  default-unban-command: "pardon"
+reason:
+  # Warning, if you use Essentials, don't add a .
+  griefing: "Griefing - Appeal on the server forums!"
+  stealing: "Stealing - Appeal on the server forums!"
+  homophobia: "Homophobia - Appeal on the server forums!"
+  racism: "Racism - Appeal on the server forums!"
+  permaban: "You are permanently banned from this server!"
+system:
+  mcbans: false
+  msbans: false
+  mcbouncer: false
+mysql:
+  enabled: false
+  host: localhost
+  port: 3306
+  database: quickbans
+  user: quickbans
+  pass: password
+  
