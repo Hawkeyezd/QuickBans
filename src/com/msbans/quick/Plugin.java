@@ -1,4 +1,4 @@
-package com.msbans.quickbans;
+package com.msbans.quick;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
